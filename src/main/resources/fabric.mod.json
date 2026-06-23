@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "vaultsniper",
+  "version": "${version}",
+  "name": "Vault Sniper",
+  "description": "Automates trial vault item sniping on servers and Realms.",
+  "authors": [{ "name": "VaultSniper" }],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.vaultsniper.VaultSniperMod"],
+    "client": ["com.vaultsniper.VaultSniperClient"]
+  },
+  "mixins": ["vaultsniper.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

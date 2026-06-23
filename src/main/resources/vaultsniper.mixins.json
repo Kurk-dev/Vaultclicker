@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.vaultsniper.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "VaultBlockEntityAccessor"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
